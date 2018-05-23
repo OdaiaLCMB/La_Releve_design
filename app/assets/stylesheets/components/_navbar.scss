@@ -78,6 +78,12 @@
   border-top: 1px solid #E6E6E6;
 }
 
+.navbar-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 991.98px) {
   .logo-md {
     justify-content: space-around;

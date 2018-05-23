@@ -18,31 +18,11 @@
 
   <body>
 
-    <!-- <div id="wrapper" class="toggled"> -->
-
       <%= render "shared/navbar" %>
 
       <%= yield %>
 
-    <!-- </div> -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js">
-
-    </script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js">
-
-    </script>
-    <script type="text/javascript">
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
-    </script>
-
-    <!-- Menu Toggle Script -->
+      <%= render "shared/footer" %>
 
        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
