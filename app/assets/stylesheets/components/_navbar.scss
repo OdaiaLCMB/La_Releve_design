@@ -13,18 +13,6 @@
  /*Logo*/
 .navbar-wagon-brand img {
   height: 70px;
-  position: absolute;
-  right: 47%;
-  bottom: 42%;
-  // background-image: url('images/logo lev.png');
-  // background-size: cover;
-}
-
-/*Left section*/
-.navbar-wagon-left {
- /* display: flex;
-  align-items: center;
-  justify-content: space-between;*/
 }
 
  /*Right section*/
@@ -51,10 +39,6 @@
 }
 
 /* Dropdown menu */
-.dropdown {
-  // font-size: 2em;
-}
-
 .dropdown .dropdown-menu {
   min-width: 13em;
 }
@@ -90,13 +74,14 @@
 }
 
 .navbar-bottom-padding {
-  padding: 0 155px;
+  padding: 10px 155px;
 }
 
-@media (max-width: $screen-md-min) {
+@media (max-width: @screen-md-min) {
   .navbar-wagon-brand img {
-    right: 42%;
-    bottom: 0%;
+   position: absolute;
+   right: 23em;
+   top: 0em;
   }
 }
 
