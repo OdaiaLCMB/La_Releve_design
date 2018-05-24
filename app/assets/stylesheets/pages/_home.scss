@@ -1,0 +1,83 @@
+.banner {
+  height: calc(100vh - 70px);
+}
+
+.card-home {
+  height: 280px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-lev {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #4a4949;
+}
+
+.card-home-category{
+  top: 10px;
+  left: 10px;
+  font-size: 70px;
+  text-transform: uppercase;
+  // z-index: 3;
+}
+
+.overlay:after {
+  position: absolute;
+  content:"";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  opacity:0;
+  transition-duration:.8s;
+}
+
+.card-home-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+}
+.card-home-link:hover {
+  opacity: 0.8;
+}
+
+.card-home-1:hover{
+  background-color: #24538C;
+}
+
+.card-home-2:hover {
+  background-color: #388EB0;
+}
+
+.card-home-3:hover {
+  background: #EA9E23;
+}
+
+.card-home-4:hover {
+  background: #242957;
+}
+
+.card-home-5:hover {
+  background: #9200C6;
+}
+
+.card-home-6:hover {
+  background: #79E053;
+}
+
