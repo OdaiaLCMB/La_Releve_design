@@ -8,7 +8,8 @@ class PagesController < ApplicationController
   def equipe
   end
 
-
+  def association
+  end
 
   def lev_open
   end
