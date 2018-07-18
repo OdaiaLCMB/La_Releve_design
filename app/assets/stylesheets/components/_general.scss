@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'roboto', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
