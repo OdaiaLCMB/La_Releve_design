@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   get 'contact', to: 'pages#contact', as: :contact
+  get 'association', to: 'pages#association'
   get 'equipe', to: 'pages#equipe', as: :equipe
   get 'lev_israel', to: 'pages#lev_israel', as: :lev_israel
   get 'lev_famille', to: 'pages#lev_famille', as: :lev_famille

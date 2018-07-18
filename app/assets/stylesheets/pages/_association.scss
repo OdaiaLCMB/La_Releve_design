@@ -1,0 +1,55 @@
+.blue {
+  color: #324479;
+}
+
+.bold-xl {
+  font-weight: 900;
+}
+
+.bold-lg {
+  font-weight: 700;
+}
+
+.blue-line {
+  border-top: 2px solid #324479;
+  width: 30em;
+}
+
+.md-size {
+  font-size: 1.5em;
+}
+
+.regular-size {
+  font-size: 2em;
+}
+
+.xxl-size {
+  font-size: 4em;
+}
+
+.xl-size {
+  font-size: 3em;
+}
+
+.lg-size {
+  font-size: 2.5em;
+}
+
+.margin-xs {
+  margin-top: -7px;
+}
+
+.title{
+  background: #324479;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border: 1px solid #324479;
+  width: 10em;
+}
+
+// include media-breakpoint-up(sm) {
+//  .promotion {
+//    padding-right: 3em;
+//  }
+//}

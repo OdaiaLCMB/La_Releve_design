@@ -1,0 +1,132 @@
+.banner-equipe {
+  height: calc(140vh - 70px);
+}
+
+.tab {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  width: 100%;
+  // margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  padding-left:0;
+  margin-left: 0;
+ 
+
+  ul {
+    width: 100%;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    padding-left:0;
+    margin-left: 0;
+  }
+
+  li {
+    float: left;
+    line-height: 42px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    display: table-cell;
+  }
+
+  a {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 3px 20px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.tabs a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+
+  h4 {
+    font-weight: bold;
+    color: #324479;
+    font-size: 20px;
+  }
+
+  // img {
+  //   float: left;
+  //   margin-right: 40px;
+  // }
+
+  &:first-child {display: block;}
+}
+
+.current a {
+  color: #fff;
+  background: #324479;
+}
+
+.current a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.current h3,h4 {
+  color: white;
+}
+
+.lemmel {
+  background-image: url(rav_lemmel.png);
+  height: 28em;
+  width: 25em;
+  background-size: cover !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.drai {
+  background-image: url(rav_drai.png);
+  height: 28em;
+  width: 25em;
+  background-size: cover !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.raphael {
+  background-image: url(Raphael.png);
+  height: 28em;
+  width: 25em;
+  background-size: cover !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.mariacha {
+  background-image: url(mariacha.png);
+  height: 28em;
+  width: 25em;
+  background-size: cover !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+
+
