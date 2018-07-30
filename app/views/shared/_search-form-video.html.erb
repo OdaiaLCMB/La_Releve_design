@@ -1,24 +1,26 @@
-<form>
-  <div class="form-row align-items-center pt-4 pb-4">
-    <div class="col-auto">
-      <input class="form-control form-control-sm" type="text" placeholder="titre du cours">
+<div class="input-text form-inline my-5">
+
+    <!-- <label for="mots-cles">Mots clés</label> -->
+    <input type="text" id="mots-cles" class="form-releve mb-2 mr-sm-2" placeholder="mots clés">
+
+    <!-- <label for="conferencier">Nom du conférencier</label> -->
+    <input type="text" id="conferencier" class="form-releve mb-2 mr-sm-2" placeholder="Conférencier">
+
+    <!-- <label for="date">Date</label> -->
+    <input type="text" id="date" class="form-releve mb-2 mr-sm-2"  placeholder="Date du cours"  >
+
+    <div class="form-group ">
+      <select>
+        <option value=""></option>
+        <option value="famille">Famille</option>
+        <option value="éducation">Éducation</option>
+        <option value="couple">Couple</option>
+        <option value="cacherout">Cacherout</option>
+        <option value="mistvot">Mitsvot</option>
+        <option value="paracha">Paracha</option>
+      </select>
     </div>
-    <div class="col-auto">
-      <select class="custom-select mr-sm-2" id="">
-      <option selected>Thème</option>
-      <option value="1">Famille</option>
-      <option value="2">Éducation</option>
-      <option value="3">Cacherout</option>
-      <option value="4">Couple</option>
-      <option value="5">Mitsvot</option>
-    </select>
-    </div>
-    <div class="col-auto">
-      <input class="form-control form-control-sm" type="text" placeholder="nom du rav">
-    </div>
-    <div class="col-auto">
-      <input class="form-control form-control-sm" type="text" placeholder="date">
-    </div>
-    <button type="submit" class="btn btn-primary">Rechercher</button>
-  </div>
-</form>
+
+    <button type="submit" class="btn-releve">Lancer ma recherche</button>
+</div>
+
