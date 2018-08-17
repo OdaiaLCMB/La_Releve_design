@@ -48,3 +48,12 @@
 .card-video-link:hover {
   opacity: 0.1;
 }
+
+.pagination-video {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+}
